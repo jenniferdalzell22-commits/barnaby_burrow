@@ -169,7 +169,29 @@ http://www.tooplate.com/view/2102-constructive
 							
 							<div class="tm-img-slider"> 
 							<a href="https://www.dropbox.com/scl/fi/xdia6uvxgcdgyot24bm1x/BarnabyParkingLotTemplate.zip?rlkey=q822gcznqasrus3ngxmsniymj&st=2mt6cuzs&dl=1"><img src="img/Barnaby-Parking-Lot.jpg" alt="Image" width="300" height="500" border="0">	
-							<!-- START - We recommend to place the below code where you want the form in your website html  -->
+<style>
+  /* Force dark text and clean background on the email field */
+  #EMAIL {
+    color: #1a1a1a !important;
+    background-color: #ffffff !important;
+  }
+  
+  /* Fix yellow placeholder text */
+  #EMAIL::placeholder {
+    color: #6b7280 !important;
+    opacity: 1;
+  }
+  
+  /* Prevent Chrome/Safari from turning the box yellow on autofill */
+  #EMAIL:-webkit-autofill,
+  #EMAIL:-webkit-autofill:hover, 
+  #EMAIL:-webkit-autofill:focus {
+    -webkit-text-fill-color: #1a1a1a !important;
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+</style>
+								<!-- START - We recommend to place the below code where you want the form in your website html  -->
 <div class="sib-form" style="text-align: center;
          background-color: #EFF2F7; 
         
